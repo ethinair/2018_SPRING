@@ -1,7 +1,146 @@
-7/23 class 1
+7/23 Week 1
 -------------
+B4 class
+---
+Books:
+"corporate information factory" by W.H.Inmon which supports up-to-down approach in DW
+
+---
 Questions about why we are here?
 what kind of goals we needs to archieve when we finished this subjects?
 what kind of chanlleges of this industry has faced today and how we can handle thoes problems w/ DH?
 
-foucs on how it works -> star schema.
+feeling
+---
+the first class is really difficult for me.
+although i've prepared a little bit but it's still not enough.
+
+class notes and questions
+---
+outlines:
+1>what is diff btw DW and Operational DB?
+2>integration of diff src of data
+3>trasaction processing and support
+4>data exploration and DM
+5>BD magmt
+
+what is DB?
+-a collection of records
+-shared access -> AC
+-a central repository
+
+main components that makes a db.
+files  <-> tables
+records<-> rows
+fields <-> clms
+
+Busi drivers:
+consumer demand
+competition&complexity
+operating efficiencies
+->
+responding to changes:
+BI+BM+BO
+
+who is DW for?
+user: manager/DMaker
+data:summaries, over time to detect patterns and trends
+needs:diff processing rqmts-> rsp time greatly relxed?
+      Q:why -> DW's aim is to store multi type of data(not for quick access?
+      what does it means? by highly variable -> many types?
+Platform:separated from operations
+-separate sys? -> what does sys means here ? what functions?
+-separate data stores
+
+unstructured data:
+hard to find rlshp btw elements/data? X-> 0/1?
+
+
+DW-DEF-Feature
+1>subject-ori -> fcs on modelling & ana of data, not org's ongoing oper??
+2>integrated -> put diff type into DW -> increase efficiency of DA
+3>time-variant -> it's an imptt dim -> why it's imptt? -> 
+  only w/ the time the data can have the trends/ pattern??
+4>non-volatile -> historical data won't be updated.
+
+Diff btw OLTP AND OLAP
+---
+OLTP pvds src to DW than OLAP sys help to ana it.
+OLTP: 
+fast qry prcs + data integity + multi-access envir + effectiveness
+OLAP：
+low vlm of tran + qry(cmplx) + resp time(measure) + multi-dimensional schemas
+
+The structure/step of DW:   
+operational db-> staging(ETL) -> DW -> Mart 
+
+ODB and DW
+odb likes cache? DW likes hardware?
+
+odb:
+current data, constructed for known tasks?? search particular rcds?
+continuous update(online)
+
+dw:
+historical data, qry->cmplx prest general form of data?
+  what it means by genral form?
+what it means DM orged by subject and ODB orged by transaction???  
+why qry accesses entire tables???
+bulk(periodic update)
+
+when it talks about usage pattern:
+stable,predictable vs var,unpredictable(dw)???
+what is usage pattern means?
+
+Application 3 types
+---
+information processing->ana processing->data mining
+
+basic ana-pro: ???
+slice-and-dice
+drill down/up
+pivoting
+
+data mining:
+find hidden pattern and associations.
+constructing ana-models,
+performing classification and prediction.
+
+DW tools' functions
+---
+data extraction: from homogeneous data src??? 
+    why homogeneous-> similar?
+data cleaning:find and correct errors in data
+data transformation: legacy -> warehouse format
+    what is legacy??
+data loading: 
+  sort & summarize 
+  consolidate 
+  check integrity
+  build indices and partition???
+refreshing:
+  updating from data src to WH
+  
+New words
+---
+operational db 
+
+ETL:
+spending 80-90% time? why it time-consuming?
+how imptt it is? how it influence the DW?
+
+Mart:subset of DW(departmentally structured data???)-> for specific user
+small in size
+customized by dptmt
+
+staging
+
+metadata:
+busi -> 
+operational -> 
+
+Star schema:
+
+Data cube:
+dimensions-> entities
+facts->
