@@ -140,6 +140,10 @@ busi ->
 operational -> 
 
 Star schema:
+facts and dimensions: facts is in the center and dimensions are its conponents
+e.g.
+facts: personal infor
+dims: name+age+counrty+gender + ....
 
 Data cube:
 dimensions-> entities
