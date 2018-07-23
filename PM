@@ -1,1 +1,60 @@
+7/23 week 1
+----------
+today is the first class of the PM. we made a brief introduction.
+We started from what is the PM. And watched some videos on lynda.
+
+---
+PM:tempering endeavor->unique goal->budget(human,fund,time rsc)
+OPERATIONS:same task.
+
+PM process:
+Initiate->Plan->Executing->Monitoring&Control->Closing
+
+asking questions：
+what is the problems?
+how to solve it? (use what kind of methods?)
+Plan->how do you want things happen?
+how you know you are done? (critiries/ product?)
+how well product done?(meets the reqmt or not ? bad or good ?why?)
+
+P manager needs:
+Tech+Busi skills + problem solving + leadship + interpersonal skills
+
+org cultures:
+1>mission+vision -> cultural
+2>leadship authority
+3>work envir
+4>it will decide how things happen and how decision make?
+
+three kinds of PM:
+1>hierarchy
+2>matric(FMer+PMer)
+3>projected(PMer is big boss)
+
+use SW:
+oracle primavera
+MS project
+keynote+prezi -> presentation
+basecamp-> sharing
+
+---
+useful idea:
+1>think about your product and your goal from the start stage of your PM.
+what is your vision of the PM and how do you want your products/services looks like?
+think about WOW monment, at the beginning think what success looks like?
+how can you add value to your cust/user/org through this Project?
+2>IT project is not "one size suites all", you need analyse different situtaions and find the correct answer to your customers.
+3>think about the side of the product.
+4>sometimes ROI or Quality are much important than budget.
+
+---
+homework
+find a group and choose the project, print paper.
+next class we will discuss value.
+---
+meet new classmates:
+Grace->china programmer 3 years c++ work experience (BIS)
+Vaibhav->India (BIS)
+So->Korea (DB administrator + 1 year DA)
+
 
