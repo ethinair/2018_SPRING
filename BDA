@@ -1,1 +1,25 @@
+7/24
+----
+Aim
+---
 
+
+About Knime:
+---
+when i try to add extensions, there are several extensions can not be reached.
+
+http://update.knime.com/analytics-platform/3.6/knid=01-83e0795c590ed468/ext/3.6/3.6.0/plugins/jp.co.infocom.cheminfo.jchemlib_18.13.0.jar.
+
+An error occurred while collecting items to be installed
+session context was:(profile=KNIMEProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+Unable to read repository at http://update.knime.com/analytics-platform/3.6/knid=01-83e0795c590ed468/labs/3.6/3.6.0/plugins/org.knime.ext.dl4j.libs_0.8.0.v201807050839.jar.
+Read timed out
+Unable to read repository at http://update.knime.com/community-contributions/trusted/3.6/knid=01-83e0795c590ed468/plugins/scifio_0.37.0.201807111014.jar.
+Read timed out
+
+An error occurred while collecting items to be installed
+session context was:(profile=KNIMEProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+Unable to read repository at http://update.knime.com/analytics-platform/3.6/knid=01-83e0795c590ed468/labs/3.6/3.6.0/plugins/org.knime.ext.dl4j.libs_0.8.0.v201807050839.jar.
+Read timed out
+
+how to learn a sw quickly -> learn by doing it.
