@@ -1,0 +1,69 @@
+Book name:
+  Corporate information factory
+Authors:
+  W.H.Inmon
+  Claudia Imhoff
+  Ryan Sousa
+-------
+
+contents
+---
+chapter 1: creating an information ecosystem
+chapter 2: introducing the CIF
+chapter 3: the external world component
+chapter 4: the applications component
+
+
+chapter 1
+---
+three busi challenges:
+1>what customer wants/need -> mass customize?
+2>competition&complex -> find new needs in mkt b4 others find it -> restructure your org if needed.
+3>operating efficiencies -> rapidly measure and predct ROI
+
+infor eco prvds context for udstd y'r busi, you can find out custormer habits through their historical consuming records.
+once you got them-> use your CIF to predict what they might needs.
+it's much economic to keep your old customer compared to appeal new customers.
+
+Solutions:
+1>BM->auto manual means eco of scale, speed to market
+2>BI->the core factor of cmpy's devlpmt, decision makeing-> what makes this c success and it's wheels turn.
+3>BM->lead the wheel's direction
+
+!!!
+CIF:
+what are its components?
+-external wld: busi+ppl -> generate data/transction -> prvid fuels to factory-> row materials
+-application: integrated and unintegrated-> it was said unint will bcm int once it byd tradtional bus operation???
+  does it means it become part of BI or this sys has been used and verified to stable so we can inte it?
+-operational data store:sub-ori, int, currt-valued, volatile, detailed data
+  what is sub-ori means? -> 
+-DW:sub-ori (??? it's same to ods), time-variant, nonvolatile -> sppt dcsMk ???
+  what is the diff of the data in DW and ODS??
+-integration and transformation layer: raw data(gathered by app) -> corporate stucture ???
+  what is corporate structure? criterion?  is there where ETL happens?
+-data mart(s):from dw but be categrized-> used by specific targets
+  what is different of the data in ods and dmart??
+-metadata:infor catalog infrastructure ???
+-exploration and data mining warehouse:
+  analysis happens-> a copy of DW?
+-alternative storage:
+  when your data are more than the capability of your dw-> additional hdwr?
+-decision support sys:
+
+line of business: prdct-> used to serve transactions -> imppt sw in corperate 
+Porter's five forces analysis:
+  industry rivalry
+  threat of new entrants
+  threat of substitues
+  bargaining power of suppliers
+  bargaining power of buyers
+
+the CIF is more likely to be regarded as a process and people involved in this process, handling thoes
+two factors are imptt to a busi.
+the ppl control the workflow, how efficient the sys will be used, and the direction of the corperate.
+
+summary；
+infor eco -> supports -> CIF works more efficient
+the whole chapter is about how a eco looks like, its conponents and so on.
+
