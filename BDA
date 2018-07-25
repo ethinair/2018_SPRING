@@ -117,7 +117,12 @@ Node:
 Q:
 -what is diff btw SW and python (NODES is codes/function/algr)?
 
+the four parts:
+data reading -> pre-processing -> train a model -> score the model
 
+PS:
+-spaCy
+-scikit-learn
 
 
 
