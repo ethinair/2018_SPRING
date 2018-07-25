@@ -44,4 +44,83 @@ asking right questions:
 what are the trends in cust'behavior -> how to build cust profiles
 when you really know someone -> find out what they needs by observe them->analyse
 
+After class
+--
+This class will talk a little bit about DA AND AI. -> methodolygy.
+
+Dataset:
+1>script-> descriptive(clustering) ??
+2>predictive
+
+week4:
+neutural network, normalization
+week6-8:
+tree->forest
+week11:
+mkt Da, hospital child cancer.
+
+Ass
+--
+1>job-> attributes->skills->plan,summary why choose it? -> think about Q assess interviewee
+2>visual+normalization, ana dataset, find value,
+3>prdict model->presentation->why you choose this topic, how you solve the problem?
+
+Others
+--
+IAPA skill survey
+vender->da consultant
+explain what's your model doing?
+
+Programme:
+R,python,SAS
+
+Q:
+how to make sure your model available?
+how good our model is ???
+
+KNIEM
+--
+-put NODES-> nodes do the job of ML -> does it means that nodes is acturally the visual version of algorithm?
+-use quickstart guide
+
+Node:
+1>XLS:String, TimeAndDate, Double, Boolean, and Int.
+  why it was said large file -> formula reevaluation ???
+  rowID -> unique? 
+  ports -> output ports -> 0 the data table read in??
+  
+2>color manager
+3>scatter plot
+  you can select plots and hiliting them -> find them in XLS's output table
+  X-Y the number change the range of the showing table
+4>partitioning
+  input tbl-> 2 partitions
+  1 inputP and 2 outputP(1st def in dialog?? 2nd remaining rows?)
+  this NODES take apart the raw dataset into two subsets???-> training and testing
+  diff ?? btw absolute and relative ??
+  random seed?
+5>decision tree learner
+  1 inP(pre-classified data used to induce the DT) + 1 outP(induced DT -> model)
+  tget attr-> must nominal(other is numerical) ???
+  num split-> 2
+  nom split-> 2 - N
+  gini index?? gain ratio?? -> for quality measures
+  post pruning method -> reduce T size incrs predct accrcy?? how ?
+    A:Pruning -> ML tech, rdc size of DT -> by remv sections of tree(pvd little power to classsify instances)
+6>decision tree predictor
+  2 ipt(model + data that you needs to classify) + 1 opt (input tbl + a clm)
+7>scorer
+  cmpr 2 clms by their attri valu pairs??? and shows confusion matrix??
+  -> how good our model is ? 
+  -> is there wrong output ? -> what are those samples are?
+
+Q:
+-what is diff btw SW and python (NODES is codes/function/algr)?
+
+
+
+
+
+
+
 
