@@ -57,4 +57,42 @@ Grace->china programmer 3 years c++ work experience (BIS)
 Vaibhav->India (BIS)
 So->Korea (DB administrator + 1 year DA)
 
+7/28 week1
+----
+Preview -> wk2 Conceptualizing and Initialising Projects
+
+•	Chapter 3 – First Things First
+•	Chapter 2 – Exploring Project Management Knowledge Areas
+
+Questions
+
+1.	Why is it important to build working relationships with project stakeholders?
+
+2.	Who do you consider to be the two (2) most important project stakeholders? Why?
+
+3.	Why is gathering requirements a challenge?
+
+4.	List and describe three (3) techniques that can be used to help gather requirements.
+
+5.	Why it is important to develop specific success criteria for each project?
+
+6.	What is the purpose of a Project Charter?
+
+7.	Define the following:
+•	an assumption
+•	a risk
+
+8.	What is project scope?
+
+9.	What is the purpose of a scope boundary?
+
+10.	List the ten (10)PM Body of Knowledge (PMBoK) knowledge areas
+
+11.	Describe the following PM Body of Knowledge (PMBoK) knowledge areas
+
+•	Project Quality Management  
+•	Project Scope Management
+•	Project Risk Management
+
+12.	How does Project Integration Management bring the other nine knowledge areas together?
 
