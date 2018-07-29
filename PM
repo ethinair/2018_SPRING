@@ -66,33 +66,124 @@ Preview -> wk2 Conceptualizing and Initialising Projects
 
 Questions
 
-1.	Why is it important to build working relationships with project stakeholders?
+1.Why is it important to build working relationships with project stakeholders?
+-they are customer and the src of your funds -> your investor
 
-2.	Who do you consider to be the two (2) most important project stakeholders? Why?
+2.Who do you consider to be the two (2) most important project stakeholders? Why?
 
-3.	Why is gathering requirements a challenge?
 
-4.	List and describe three (3) techniques that can be used to help gather requirements.
+3.Why is gathering requirements a challenge?
+-customer can not describe their needs properly.
 
-5.	Why it is important to develop specific success criteria for each project?
+4.List and describe three (3) techniques that can be used to help gather requirements.
+-communication
 
-6.	What is the purpose of a Project Charter?
+5.Why it is important to develop specific success criteria for each project?
 
-7.	Define the following:
+6.What is the purpose of a Project Charter?
+
+7.Define the following:
 •	an assumption
 •	a risk
 
-8.	What is project scope?
+8.What is project scope?
+-boundary of the project. what should be included and what should not.(no more no less, avoiding waste of rsc)
+->what to do:
+ 1>scope mngmt Plan:
+  outlines the processess for def,validating ??, controlling scope.
+ 2>id and documenting prj rqmts
+  what we needs to do to achv prj objectives?
+ 3>def scope
+  only keep the necessary parts
+ 4>develp a WBS(work breakdown structure)
+  prj->small chunks -> easy to mng
+  prj->task(aim)->work(what to do)
+ Ps:avoiding scope creep:
+  -monitor prj status
+  -mng change rqst??
+  
+  
 
-9.	What is the purpose of a scope boundary?
+9.What is the purpose of a scope boundary?
+-focus on main target.
 
-10.	List the ten (10)PM Body of Knowledge (PMBoK) knowledge areas
+10.List the ten (10)PM Body of Knowledge (PMBoK) knowledge areas
 
-11.	Describe the following PM Body of Knowledge (PMBoK) knowledge areas
+11.Describe the following PM Body of Knowledge (PMBoK) knowledge areas
 
 •	Project Quality Management  
 •	Project Scope Management
 •	Project Risk Management
 
-12.	How does Project Integration Management bring the other nine knowledge areas together?
+12.How does Project Integration Management bring the other nine knowledge areas together?
 
+Time mngmt:
+ 1>schedule mngmt plan
+  doc how to develp, mng, execu, control the prj schedule.
+ 2>def schedule activites
+  lowest level of WBE -> work pkg-> breakdown into acts
+ 3>sequence activites
+  based on rlship btw tasks
+ 4>estimate rsc and durations 
+  ppl+eqpmt+materials -> how long it will finished?
+  schdu Meths:
+   -critical path
+   -c chain
+  5>control schedule
+  
+ Costs and budgets:
+   how to handle costs?
+   estimate rsc-> esti cost.
+   Techs:
+    -expert jdmt
+    -parametric
+    -bottom-up
+    
+ Mng quality:
+  pjt success -> meeting objs 
+  Plan：
+   -id quality stds(walk-throughs ???, reviews, prototypes)
+   -prdct specifications
+   -acceptable error rates
+   -physical dimention tolerances
+  Quality control:
+   -testing deliverables
+   -recording results
+  
+  Mng team:
+   -id the skills and roles to perform P
+   -create a staffing plan
+   ->acquire team
+   ->mng the team:
+    track performace + prvd feedbk + resolve issues + mng conflicts
+    
+  Communicaiton:
+   Plan:
+    infor + audience + method + frequency
+   Monitor:
+    make sure stakehoder get infor they need
+   
+  Risk:
+   good/bad events may occure in the future.
+   -reduce neg
+   -increses benefits of positive events
+   1>plan
+    id how to perform risk mngmt tasks?
+   2>id risk 
+    do often to look for new risk
+   3>ana risk
+    ranking risks(probability -> impact to Pjt)
+   4>response
+    avoid, transfer, mitigate, id contingencies
+   5>monitor risk
+    implmt response
+    track results -> working or not ?
+    
+  Procurement:
+   Purchasing/acquiring P&S
+   id needs -> select vendors -> mng contracts
+    
+   
+  
+   
+  
