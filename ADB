@@ -270,6 +270,11 @@ Chapter 5 I&T layer
  Performing key transformation:
   what is key means? key structures? -> most imptt factor/clm of an record???
   
+  
+ what does it means of Subject-oriented:
+ -categorized/organized accroding to subjects: sales/product
+ -modeling and ana of data for DMaker instead of daily operations/ transaction processing
+ -get rid of data that not useful
    
 
 
