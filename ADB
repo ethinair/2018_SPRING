@@ -148,3 +148,130 @@ dims: name+age+counrty+gender + ....
 Data cube:
 dimensions-> entities
 facts->
+
+
+7.29
+----
+Preview:
+1>data in CIF:
+ -external data:
+  ->capability to be manipulated-> cmpr w/ internal data(very malleable)??? why ? 
+    what you see is what you get ?? -> not easy to change (structure or the format of the data-> not easy to control)
+    it byd the scope of CIF arch.
+    what is external key means??? modification ? -> mode it to help ext data to fits the structure of CIF???
+    what are the diff btw the row data and external data ???
+    imppt in explrtion warehouse ??? 
+    
+ -reference data
+  ->dscrb valid products & product hierarchies ??? as its name suggests
+   standerlization ?? ->short-hand -> save disk space.
+ -historical data
+  ->vlmn of data: longer -> greater
+    busi usefulness: more current(the data)-> more relevant to currnt busi
+    aggregation of data : more current -> used at detailed level; older -> at summary level ???
+    think about the time dimentaion of the data in different stage ??
+    indusry->compy->dptmt (up to down)
+    project oriented???
+ -dss to operational fdbk loop
+  -> std flow: cust->app->I&T->ODS/DW->DW->data marts
+ -flow of data
+  ->back flow: minuscule movement-> big influ.???
+2>variations to CIF
+3>operational processing and dss processing
+4>reporting in CIF
+5>User:
+ -app user
+ -dss/infor user
+ -types of dss usage in cif
+      1>tourist->find breadth of infor
+      2>farmer->predictable
+      3>explorer->unpredictability and irregularity
+      4>data mining->statisticians(explorer->create assertions and hypotheses) , miner proves the validity/inval of those.
+6>centralized or distributed
+7>data modeling and cif
+8>migragting to cif
+9>structing data in cif
+
+7/29 afternoon
+---
+Chapter3 External wld cmpnt:
+ (transaction producers and infor consumers -> does it means a input and output???)
+-Taxonomy of transcations:
+ 1>direct or indirect
+ 2>detailed or summary level
+ 3>immediate or delayed
+ 4>large or small
+ 5>wholesale or retail
+ 6>personal or machine assisted
+ 7>structured or unstructured
+ 8>integrated or unintegrated
+ 9>commercial or retail
+-creator of transaction and consumer of information ???
+-participants:
+ ->consumer, partners, vendors, clerical workers, managers, statisticians
+ ->interface
+  fast,efficient,convnt,cheap,capable of performing a useful func???, simple to use, scalable.
+  
+Chapter 4 Application compnt:
+ (collection vehicle-> 
+  -gathering detailed Transct data, 
+   what is detailed T data?? -> how to def? means including all attributes? haven't been pre-processing ? 
+  -interact-g directly w/ users
+  -auditing and adjusting data ???
+  -editing data???
+  
+  challenge:
+  1>collective millstone ard the neck -> once adds new app-> adds weights ->not easy to undstd and mng ??
+  2>unintegrated nature?? what does it means lack of integration?
+    how to change state from unint to int??
+  
+  Extro data , Metadata and App
+  -meta->keep track of where data is coming from? how data is being used and where data is going???
+   how???
+   system developer-> living meatadata repository for end-user???
+   
+  system of record???-> best src of data:
+  -complete src
+  -accurate src
+  -current src
+  -most closely conforms to the corporate data model ???
+  the data has age -> different place/stage??
+  I&T have an imptt task -> selecting the sys of records??-> does it means choose send data to ODS/DW??
+
+Chapter 5 I&T layer
+(unlike of DM/ODS/DS-(mainly consisted by data), I&T mainly consisted by program)
+???ETL
+
+ Def:
+  Application -> I&T (combine and tranform into ) -> corperate data (??? how to def corperate data?? structed and integrated??)
+ An unstable interface???
+  -complexity ??
+  -speed of data movement
+  -volumn
+ 
+ Complex integration and transformation interface:
+  application data-> Program -> transformed data (the problem is multi links / connect to each other.)
+  
+ Data model:
+  blurprint -> how data shld look in CIF???
+  the input of I&T(can be ref-data, external-data and raw detailed data from app)
+  Q:
+  -the purpose of DW is just for storing data more effectively?
+   organize data so that program / machine can find sth useful?
+ 
+ Metadata:
+  why said that the metadata can describe the process of transformation ??
+  Def:
+   data used to represent other data. like a summarized data tht leads to detailed data(index -> content)
+   -road-map to DW
+   -def the warehouse obj (what kind of data/result you want in the end? )
+   -act as a directory/index -> help to locate detailed infor in DW -> like key words when we search ??
+   
+ Performing key transformation:
+  what is key means? key structures? -> most imptt factor/clm of an record???
+  
+   
+
+
+
+ 
