@@ -266,6 +266,8 @@ Chapter 5 I&T layer
    -road-map to DW
    -def the warehouse obj (what kind of data/result you want in the end? )
    -act as a directory/index -> help to locate detailed infor in DW -> like key words when we search ??
+  A:
+   the tutor said it is everywhere, everything is metadata.
    
  Performing key transformation:
   what is key means? key structures? -> most imptt factor/clm of an record???
@@ -275,7 +277,35 @@ Chapter 5 I&T layer
  -categorized/organized accroding to subjects: sales/product
  -modeling and ana of data for DMaker instead of daily operations/ transaction processing
  -get rid of data that not useful
-   
+ 
+ 
+7/31 week2
+----------
+Integration of data src:
+->bld dw flow
+  ODS -> stage area -> etl (Q: what is stage area -> btw ODS AND DW ???)
+ 
+why it's hard?
+ diff src/platform/data format
+
+what is S -> Target mapping ??
+
+Diff roles:
+1>PM
+2>architect -> create schema (how db cnnted w/ each other?)
+ how arch create schema ? 
+ accroding to what ? (why will ana busi needs? )
+3>data miner: ???
+4>domain expert: bkgrd from busi perspective.
+5>develper: metadata(who code it)
+
+what are tasks need to do :
+1>comm: DStist help potential busi cooperator extract their needs (accd what ??? the data they provided?)
+2>time - money - quality(minimal)
+3>Documentation
+
+
+
 
 
 
