@@ -182,8 +182,94 @@ Time mngmt:
   Procurement:
    Purchasing/acquiring P&S
    id needs -> select vendors -> mng contracts
-    
    
+ week 2  
+ ----
+ This week we formed a group which include 5 ppl grp name is four tables.
+ 
+ What is the key of PM:
+ 1>p def -> a clear defination help us to do relatived activities
+ 2>udstd P lifecycle -> deliverables
+  what is deliverables ???
+ 3>seek help
+ 4>ask Q -> clarification
+ 5>enlist mentor-> who you can ask for help
+ 6>id go-to ppl(get infor /suppt)
+ 7>respect your team (they are the ppl who can make/destroy U)
+ 8>listening for y'r cust & stkhoders
+ 9>discern input ??? what does it means -> rcs ??
+ 10>leverage templates -> documentation -> maintain your works
+ 11>propare yslf
+ 12>Plan
+
+ What should we do about a small project?
+ ->Do not spend more "time money rsc effort" than it takes to do the P.
+ 1>task list -> accd this to assign rsc
+ 2>id dependencies -> A have to be done before we start B
+ 3>assg ppl -> don't needs rsc matrix???
+ 4>set due day
+ 5>Doc -> don't need version control ???
+ 6>track time/$ -> don't needs EVA ana????
+ ->keep it simple
+ 
+ what about IT project?
+ ->P(busi+prodct+pm-delivery ???)
+ hdwr web db infrastracture internet storage disaster-recovery
+ (what does it means make it deliverable ??? ->tangible/intang G/S as reslt of a P)
+ ->factors:
+ 1>multi vender -> diff expectations/process(work flow??)
+ 2>changing version/release -> keep your eyes on moniter -> up to data
+ 3>complex depdcy ???
+ 4>integrated testing -> each part works doesn't means the combination will also works.
+ 5>make sure get help from vender -> choose vender is a process to choose a long term supported services!!
+  
+ project's value/proposition
+ ->(mov:measurable organizational value -> why call it measurable? -> means available? feasibility??)
+ 
+ Value chain:
+ ->
+ | org goal -> org sttgy -> pjt value/proposition |
+ "->" : driver 
+ "<-" : support
+ diff goal means use diff sttgy to archv it.
+ what is diff btw goal and value ???
+  -> goal means what we need to do/achv, value means benefits (long term or short term , Predictability ??)
+ ->
+ P value: scope schedule fund quality ( find the balaence )
+ 
+ Busi case:
+ what value you can give?
+ 1>id desired value of your custermers:
+  -customer increase?
+  -sttgy -> well organised ???
+  -financial -> more interset?
+  -operational -> efficiency
+  -social -> brand building?
+ 2>what value?
+  better? cheaper ? faster?
+ 3>dvlp approperate metric:
+  type of metric: $, % -> number that describe outcome
+ 4>set a teim frame
+  how long it will takes?
+ 5>verification/aggrement stkhders???
+  making sure they support U, you are doing sth archv their goal.
+ 6>clearly and consisly summrz value sttmt -> this not include how to archv goal!!!
+ E.g.
+  what it will bring(matric) if successd -> how much?
+  by a particular point of time ->when?
+  MOV= measurable + agreed on + timeframe <-> Matric + timeframe + what it is
+  
+ Our grp project:
+ -our role: work for global charities
+ -duty: run events for raise $ , pvd opp/good/serv.
+ -activity: recycle old cmpt eqpmt(laptop desktop printers) -> for disadvantaged schools
+  ->Ana:
+  how we can help those schools (children) to improve their education through thoes eqpmt?
+  
+ 
+ 
+ 
+ 
   
    
   
