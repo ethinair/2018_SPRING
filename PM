@@ -266,10 +266,80 @@ Time mngmt:
   ->Ana:
   how we can help those schools (children) to improve their education through thoes eqpmt?
   
+week3
+------
+Questions:
+1.	What is a Work Breakdown Structure (WBS)?
+ scope mngmt process-> divvy up pjt bite sized pieces. -> deliverable-oriented???
+ 1>easy to esti time and $
+ 2>easy to assng task to team member
+ 3>check point -> allow you measure progress.
+ Types:
+ 1:summary task
+ 2:work level task (detailed )
+ (time + moneey + stuffs)
+ smaller manageable sections that can be easily allocated and tracked to completion
  
+2.	What is a work package?
+ -the detailed works in WBS
+ who is gonna to do it?
+ which dptmt ?
+ who will give a hands/help?
+ what to do?
+ completion state? -> corresponding deliverabl
  
+ the level of detail dps on team member's experience
+
+3.	Why is it important to derive a WBS when documenting a project’s scope?  
+using scope statement and deliverables to id top level summary tasks.!!?
+
+4.	Why must a WBS be flexible?
+
+5.	List and describe five (5) project estimation techniques
+
+
+6.	List and describe the five (5) steps in a project’s Risk Management Plan 
+ -analyze each risk(likelihood of the risk? how big the impact if it happen?)
+ -priority -> which one going to mng?
+ -how you response(accept/contingency funds/avoid risk(change scope)/transfer risk)
+
+7.	Why do all risks need a mitigation plan?
+ -reduce the impact when it affect busi.
+
+8.	List four (4) cost types that can be used in project budgeting?
+ -labor
+ -time-based rsc(rental eqpmt, leased office space), 
+ -material cost, 
+ -anacillary costs(training, travel)
+ create pjt schedule and associate costs w/ rsc you've assg to task.
+
+9.	What role does a Roles and Responsibilities Matrix play in a project?
+
+10.	What is the purpose of a Project Organizational Matrix?
+
+11.	What is project quality?
+-whether or not your product or deliverable meets cust's rqmts.
  
+12.	List the three (3) components of a Quality Management Plan?
+ -standards(pdct dim , tolerance deviation , acceptable defects)
+ -assurance->how demonstrat tht quality stdd have been met?
+ -control -> how you monitor and measure quality
  
+13.	Why is a Project Communications Plan required?
+ -ppl get infor they needed in most effiective way.
+
+14.	List the four (4) steps in the project change management process
+-id items t control(scop rqmts)
+ baseline documents + change review board(key stdhder)
+-change mngmt process
+ 1>doc and submit change rqst -> let stdhder to est
+ 2>evaluate and estimate impact -> does it needed? right appch? effort and $ ?
+ 3>change review board review rpt
+ 4>track where change are in your process
+
+15.	What is the purpose of change control in a project environment? 
+
+  
   
    
   
