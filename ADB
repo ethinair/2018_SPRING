@@ -305,8 +305,113 @@ what are tasks need to do :
 3>Documentation
 
 
+week 3 8/6
+-------
+Prestudy：
+-Schema:skeleton rprsent the logical view of the entire DB-> formulates all constrainst that are 
+ to be applied on the data -> how to show those constrainst ????
+ ->two categoies：
+ 1>physical-> def how the data stored ?
+ 2>logical-> def tables views and integrity constraints.???
+ 
+-ER MODEL to relational model
+ ER -> relational schema ? what changed???
+ mapping process -> algorithm:
+ -create table for each entity
+ -entity's attri -> fields of table
+ -declare priKey
+ 
+ 
+ 
 
+Data procesing and modelling
+Concept:
+-conceptual modelling -> ME/R model
+-logical modelling -> cudbes , dimensions, hierarchies
+-physical modelling -> star, snowflake
+ 
+what is data model used for ???
+->mng complex data rlshp (in where ?? osd or ds or ds?)
+->roadmap of data and rlshp  -> help user
 
+Conceptual model：
+---
+-components:
+ 1>facts: focus of interest for Dci-making -> sales shipments..
+ 2>measures: attri -> describe facts from diff points of view. -> sale measured by its revenue???
+ 3>dimensions: discrete attri -> determine the granularity to adopted to represent facts -> prduct store date???
+ - if sale is fact -> product,geographical area time can be dim. -> basic classifacation level.
+ 4>hierarchies: made up of dim attri???
+   -how facts may be aggregated and selected?? -> day-month-quarter-year
 
+-Multidimensional e/r model  (ME/R model)
+ purpose -> create an intuitive(what does it means????) representation of multidimensional data -> high performance access
+ what is multidimentional semantics????
+ 
+ 3 main ME/R constructs:
+ 1>fact node
+ 2>level node
+ 3>special binary classification edge ('------->')
+  -what does arrow means , direction ?? subset?
+ 
+ Logical modelling:
+ ---
+ goal:
+  -confirm subject areas?
+  -create 'real' facts and dim from the sub we have ided.??
+   what is real fact???
+  -establish the needed granularity for our dimensions.
+ E.g:
+ Cubes:
+ -sales, purchase, price, inventory
+ Dim: (ana purpose chosen entities?? w/i data model)
+ -product,time,geogrphy, client
+ 
+ Physical modelling
+ ---
+ Def physocal strudtures:
+  1>DB envir
+  2>performance tuning strategies???
+   -sys's ability to acpt higher load -> scalability, 
+   modifying a sys to handle a higher load -> Per-tuning?
+   -indexing
+   -parititioning??
+   -materialization??
+ 
+ Goal:
+ -def actual storage arch
+ -how data be accessed and how it arranged??
+  the structure of the file sys ???
+ 
+ Physical implmt
+ -relational
+  1>snowflake schema
+  2>star schema
+  Q: what is diff?
+ -multidimensional
+  matrixes
+ -relational model, goals:
+  -as low loss of semanically knowledge as possible -> classification hierarchies ???
+  -translation from multidim queries must be efficient ??? what transliaition ?
+  -RDBMS able to run the translated queries efficiently
+  -maintenance of present tables -> easy and fast
+ -going from multi-dim to relational
+  -reprstation for cubes, dimensions, classification hierarchies and attributes
+  -implmtt of cubes w/o classification hierarchies is easy:
+   1>table seen as a cube -> attri -> dims
+   2>a tuple(records???) in table represents a cell in cube. ???
+   3>if we only use part of clmn as dims -> use the rest as measures ???
+   4>the resulting tab -> fact table??? what does fact means??
+  
+  Fact tables:
+  
+  
+  dimensions vs granularity vs facts ???
+  cube vs table ???
+  classification level 
+  
+  dimensions tables -> decide -> fact table (X-Y independent -> dependent variable)
+  like general attributes -> decide -> target attribute
+  
 
  
