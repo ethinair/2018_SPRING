@@ -405,13 +405,21 @@ Conceptual model：
   
   Fact tables:
   
+  Q:
+  1>dimensions vs granularity vs facts 
+  2>cube vs table 
+  3>classification level 
   
-  dimensions vs granularity vs facts ???
-  cube vs table ???
-  classification level 
+  4>snowflake vs star schema
+  -use R-DB to org data marts or DW
+  -> use dimension tab to describe data aggregated in a fact table
+  -> Q ALL dim's Pk -> fact table's Composite Pk????
+  -> whether the dim table are normalized ??? -> fewer redundant records if normalized.
+  
+  http://www.vertabelo.com/blog/technical-articles/data-warehouse-modeling-star-schema-vs-snowflake-schema
   
   dimensions tables -> decide -> fact table (X-Y independent -> dependent variable)
   like general attributes -> decide -> target attribute
   
-
+  
  
