@@ -423,3 +423,83 @@ Conceptual model：
   
   
  
+Lec 3 8.6
+------
+Model:
+-udstd design + effective query 
+subject-ori -> core busi interset($ + time period-verall trend)
+who is your customer? 
+what kind of data they have?
+
+conceptual
+-ERD -> reduce the redentency -> duplication
+-conpenent:
+ 1>fact:
+ 2>measures: other clmn that describle the facts (characteristic discrbe fact)
+ 3>dim:what granularity
+ 4>hierarch:dim attris
+Q:
+how measure impact dim result??? characteric -> constrain the dim's level?? revenue -> year (no needs for d month?)
+
+Facts:
+sales + custmer 
+
+Mea
+dim:type, category, material
+
+
+ M->F , H->D
+
+ MD-ER:
+ 1>specialization->org ER+ addtional feature
+ 
+ 3 ele：
+ 1>3d cude -> node
+
+ when got a problem -> ana what tables needs(join)-> DW
+ avoid join- >MD-ER:
+
+Logical model:
+what is real factor means?
+m:m mapping?
+classification level(son -> parents) -> hieach
+which is the smallest ele ? 
+dim has many level hierarch.
+
+data cube:
+n-d cube-> base cuboid
+apex(0-D) highest
+
+muti-dim in the same diagram -> diff combinations ->choose the cube your needs to meets the quray.
+
+design of the schema should be subject-ori -> if the sub changed
+
+O-D like or operation, -> 3-D like and operation.
+
+phy model：
+cube -> computaional cost??
+descriptive clmn?
+
+Fact table: clm(num) + Fkey to dim-table
+
+Dim-tab -> descrb each aspect of fact
+
+dim like a standerlations ? so it is static???
+smallest -> Fk??
+Fact tab-> most core busi data .
+schema -> in order to make a ne combinaition you needs to join lots of tablw to connect Fks
+
+Star:
+less join more redentancy.
+
+Fact-tab -> many rows ? 
+
+snowflake :
+when things change -> only needs to change one compents
+(indepentent)
+
+think about what will change in the future -> how to update the DW(structure???) 
+
+Facts:
+sales
+
