@@ -438,6 +438,8 @@ conceptual
  2>measures: other clmn that describle the facts (characteristic discrbe fact)
  3>dim:what granularity
  4>hierarch:dim attris
+ 
+
 Q:
 how measure impact dim result??? characteric -> constrain the dim's level?? revenue -> year (no needs for d month?)
 
@@ -502,4 +504,143 @@ think about what will change in the future -> how to update the DW(structure???)
 
 Facts:
 sales
+
+
+
+
+8/13 Preview:
+-------
+Last class:
+schema-> skeleton structure tt represents the logical view of the entire DB.
+Q:
+ ->how to define fact, measures , dimensions???
+
+ EG:
+ 1>Fact: sales
+ 2>Measures:quantity,income,discont
+ 3>Dimensions:
+   -furniture(type,category,material)
+   -customer(age,sex,city->region->state)
+   -time(day->month->year)
+ Q:dim could be un-hierarch???
+--
+Queries:
+Tables:
+1>Sales:
+ Pk:idFurnture + idCustomer + idTime
+ Others:Quantity, income, discount
+2>Furniture:
+ Pk:idFurnture
+ O:Type, Category, Material
+3>Customer:
+ Pk:idCustomer
+ O:Age, Sex, City, Region, State
+4>Time
+ Pk:idTime
+ O:Day, Month, Year
+
+Q1:Find the quantity, the total income and discount w/ respect to each city,
+ type of furniture and the month
+A1:
+Select C.city, F.Type, T.Month,Sum(s.quantity),Sum(s.income),Sum(s.discount)
+From Sales S, Customer C, Time T, Furniture F  //????? this is from diff tables -> no join
+Where S.idCust=C.idCust AND 
+      S.idFurn=F.idFurn AND
+      S.idTime=T.idTime
+Group by C.city, F.type, T.month
+
+Q2: determine the 5 most sold furnitures during may 2018
+A2:
+Select F.Type, Sum(quanlity)
+From(
+    Select F.Tpye,sum(S.quantity),
+    Rank() OVER (order by sum(s.quanlity)DESC)
+    From Sales S,Time T, Furniture F   
+    Where S.idTime= T.idTime AND
+          S.idFurn= F.idFurn AND
+          T.Month=May AND T.Year=2018 
+     )
+Where Rank <= 5
+
+OLAP 
+---
+Q: why said that ODB is stable and predictable (usage pattern)??
+   ODB-> static(db structure), dynamic(updates->DB content)??
+
+Architecture:(bottom to up)
+-Data(ODB/External src) --ETL--> 
+-Bottom tier:DW server(Monitoring, Administrator, DW, DM, metadata repository)
+-Middle tier:OLAP server --Output-->
+-Top tier: Front-end tools (query/rpt, ana, data mining)
+
+PS:OLAP queries also called "decision support" queries.
+
+Typical ana requests:
+1>comparisons:
+  sales per region : this year VS pervious year
+2>multidimensional ratios??
+  sh contribution to weekly profit made by all items sold in the northeast stores btw 1 may and 7 may
+3>ranking and statistical profile:
+  sh sales, profits, and average call volume per day for my 10 most prefitable sales-people
+4>custom consolidation
+  sh income statement by quarter for the last four quarters for my northeast region operations
+
+Typical OLAP operations：
+-roll-up(drill-up)
+ ->taking the currt aggregation lvl of fact values and doing a further aggregation
+ ->summarize data by
+      -climbing up hierarchy(hierarch roll-up) ??does it mean jump over lvl?
+      -by dimensional reduction (Q:why and when droping dim?)
+      -mix of those 2
+ ->used for obtaining an increased generalization???
+-drill-down(Q: what happend when we drill-down or roll up -> more specific -> more dims? )
+ ->de-aggregate operation
+ ->introducing new dim
+ ->requires the existence of materialized finer grained data (Q: what is finer)
+-slice and dice
+-pivot(rotate)
+
+Q:when we roll-up or drill-down, it's like categrorize according to diff attris/dimentions(dim is attri of fact ??)?
+Q:why we need pivot?
+Q:wht is granularity
+  A:Measure of the degree of detail in fact table.
+    uniquely identify the information,Data warehousing principles recommend to 
+    store information at the lowest level and summary can be produced from the least granular level data
+
+Other operations:
+-aggregate functions
+-ranking and compring
+-drill-across
+-drill-through
+
+How dose OLAP work?
+---
+OLAP sys:
+ -Client/server arch
+OLAP server:
+ -high-capacity,multi-user data manipulation engine -> sppt and operate on multi-dim data struture.
+ -optimized for -> fast,flexible calculation and transformation of raw data based on formulaic rlshp(Q:).
+OLAP-S：
+1>physically stage the processed multi-dim infor to deliver consistent and rapid response times to end users(Q: )
+ MOLAP(Fast indexing to pre-computed aggregations BUT not very scalable Q: why fast ?)
+2>store data in RDB and simulate M-dim with special schemas.
+ ROLAP(Scalable BUT needs direct access to data Q:)
+3>offer a choice of both
+ HOLAP
+ 
+ROLAP VS. MOLAP
+1>schema:   star schema vs data cubes (Q:)
+2>db size:  M->L        vs S->M
+3>architecture: C/S
+4>access:   ad-hoc requests vs limited to pre-def dims (Q:)
+5>resources:      H VS VERY H
+6>flexibility:    H VS L
+7>scalability     H VS L
+
+OLAP query lan
+---
+
+ 
+
+      
 
