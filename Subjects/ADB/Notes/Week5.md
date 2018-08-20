@@ -53,11 +53,11 @@
   3 the conf -> the num of times the if/then sttmt been found to be Ture 
 
 ### Apriori Algorithm
--two steps <br/>
+- two steps <br/>
  1>find all freq itemsets (set of items w/ sup>= minsup) <br/>
  2>use freq itemsets to generate rules
--key words <br/>
- 1 threshold C <br/>
+- key words <br/>
+ 1 threshold C  
  2 bottom up approach -> candidate generation <br/>
  
  
@@ -67,3 +67,6 @@
  2 how can you figure out tht X(chicken,beef) -> Y (milk) in a Transaction, since they are all independent items ?  
  3 what is hash tree ?
  4 breadth-first search
+
+test  
+sdf
