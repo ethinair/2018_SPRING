@@ -30,3 +30,18 @@
   Id Ana Plan Track Control (comm and doc)
   activity:
   run a horseshoe (everyone said one risk)
+  
+- Perspective
+  {
+  value proposition -> 
+  (scope -> wbs ->task){(budget time)(quality)} 
+  - > (sequence, resoures & task time estimates) -back to -> 
+  (budget time) w/ schedule
+  }
+  the whole process should under (risk tracking control reporting)
+  
+- Four parts
+  activity plan 
+  risk assessment 
+  rsc allocation 
+  cost schedule
