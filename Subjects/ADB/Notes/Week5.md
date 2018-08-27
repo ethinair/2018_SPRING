@@ -1,7 +1,4 @@
 # Week 5 BI and DM 
-
-## Preview
-
 ### Outline
 - Principles of DM
 - Association Rule Mining
