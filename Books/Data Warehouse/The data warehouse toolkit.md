@@ -41,5 +41,38 @@ MUTIDIMENTIONAL DB -> OLAP CUBES
   - dim's attri -> primary src of query constraints, grp and `rpt labels` ???.
   
   
-  
-  
+---
+
+# Chapter Three Retail Sales
+
+### Outlines
+```
+1 Four step dim-desgn process
+2 case sty
+3 dim tbl details
+4 retail schema
+5 dim and fact tbl keys
+```
+
+## 1 Four steps dim-design process
+### Step 1 : slect busi process
+
+### Step 2 : declare the grain
+- Questions:  
+1 what is grain  
+ [grain](https://www.ibm.com/support/knowledgecenter/en/SS9UM9_9.1.1/com.ibm.datatools.dimensional.ui.doc/topics/c_dm_design_cycle_2_idgrain.html)
+The number of dim depds what level of detail your fact tbl or dim-model is ??  
+Diff dim consist a picture of your aim qury ??
+
+2
+
+- Notes:  
+1 
+
+### Step 3 id the dim
+- Questions:
+- Notes:
+
+### Step 4 id the facts
+- Questions:
+- Notes:
