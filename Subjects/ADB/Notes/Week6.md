@@ -71,7 +71,7 @@
    Output: Data points w/ cluster memberships  
    1>`For` iteration =1 to maxiterations do  
    2> `mapper`: read D and centroids from HDFS  
-   3> `mapper`: compute the distance btw each point in D and each point in centroids
+   3> `mapper`: compute the distance btw each point in D and each point in centroids  
    4> `mapper` output : KV pairs w. key as centroid id and value as data point id and distance btw them  
    5> `shuffle and sort` : aggregate for each key (centroid)  
    6> `Reducer`: sort distance and associate data point to the nearest centroid  
