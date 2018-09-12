@@ -1,5 +1,9 @@
 ### Web scrapping [9/12]
 ```
+
+# reference 
+https://www.youtube.com/watch?v=XQgXKtPSzUI
+
 # i find three diff src website could find the results
 # 1 http://geospatial.dcgis.dc.gov/propertywebservice/SSLSearch.asmx?op=findBySquareSuffixLot
 # 2 https://www.taxpayerservicecenter.com/RP_Search.jsp?search_type=Assessment
