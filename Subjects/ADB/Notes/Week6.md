@@ -86,10 +86,10 @@
   1> `Mapper` : Read D and X from HDFS  
   2> compute the distance btw each di(belong to D), and each xj(belong to X) (M to M mapping -> the computation work processing synchronize ???)  
   3> `mapper` output: key-value pairs w/ key as test instance id and value as train instance ID and the distance btw them  
-  4> `shuffle and sort`: aggregate for each key (test instance)
-  5> `Reducer` :sort the distances and take first k training instances as nearest-neighbors
-  6> `reducer` : take the majority voting of class labels of nearest neighbors
-  7> `reducer` output : class labels of test instances
+  4> `shuffle and sort`: aggregate for each key (test instance)  
+  5> `Reducer` :sort the distances and take first k training instances as nearest-neighbors  
+  6> `reducer` : take the majority voting of class labels of nearest neighbors  
+  7> `reducer` output : class labels of test instances  
 
 ### Notes:
 1 Characteristics of Big data  
